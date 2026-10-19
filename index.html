@@ -1,347 +1,78 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Andriane Felicano's Information Technology student portfolio at Cebu Eastern College.">
-  <meta name="theme-color" content="#171329">
-  <title>Andriane Felicano | IT Student Portfolio</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <a class="skip" href="#main">Skip to content</a>
-
-  <header class="header">
-    <a class="wordmark" href="#home" aria-label="Andriane Felicano home">
-      <span class="mark">▰</span> ANDRIANE FELICANO<span class="blink">_</span>
-    </a>
-
-    <button class="nav-toggle" type="button"
-      aria-expanded="false" aria-controls="nav-links"
-      aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
-
-    <nav class="nav" id="nav-links" aria-label="Main navigation">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#interests">Interests</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-
-    <a class="header-link" href="#contact">Let's talk <span aria-hidden="true">↗</span></a>
-  </header>
-
-  <main id="main">
-    <!-- HOME SECTION -->
-    <section class="hero wrap" id="home">
-      <div class="hero-copy">
-        <p class="overline">
-          <span class="live-dot"></span>
-          HELLO, WORLD. I'M AN IT STUDENT.
-        </p>
-
-        <h1>LEARNING<br><span class="accent">TODAY.</span><br>BUILDING TOMORROW<span class="period">.</span></h1>
-
-        <p class="hero-name">
-          Hi, I'm <strong>Andriane Felicano</strong> —
-          an aspiring IT professional and web developer.
-        </p>
-
-        <p class="hero-description">
-          I'm studying Bachelor of Science in Information Technology
-          at Cebu Eastern College. I enjoy learning how technology works
-          and turning ideas into useful, creative digital projects.
-        </p>
-
-        <div class="actions">
-          <a class="btn primary" href="#projects">Explore projects <span>↗</span></a>
-          <a class="btn outline" href="#about">Get to know me <span>↓</span></a>
-        </div>
-
-        <p class="hero-note">
-          OPEN TO LEARNING &amp; COLLABORATION //
-          <span id="clock">2026</span>
-        </p>
-      </div>
-
-      <div class="hero-art" aria-label="Abstract technology-inspired illustration">
-        <div class="grid-field"></div>
-        <div class="ring ring-one"></div>
-        <div class="ring ring-two"></div>
-        <div class="center-shape"><span>&lt;/&gt;</span></div>
-        <span class="coordinate coord-top">IT STUDENT // 01</span>
-        <span class="coordinate coord-bottom">IDEAS → DIGITAL SOLUTIONS</span>
-        <div class="art-label">CREATIVITY <span>×</span> TECHNOLOGY</div>
-      </div>
-    </section>
-
-    <div class="ticker" aria-hidden="true">
-      <div>
-        INFORMATION TECHNOLOGY <span>✳</span>
-        WEB DEVELOPMENT <span>✳</span>
-        UI/UX DESIGN <span>✳</span>
-        PROGRAMMING <span>✳</span>
-        GAME DEVELOPMENT <span>✳</span>
-        CREATIVE THINKING <span>✳</span>
-      </div>
-    </div>
-
-    <!-- ABOUT SECTION -->
-    <section id="about" class="section wrap">
-      <div class="section-head">
-        <span class="section-count">01 / PROFILE</span>
-        <h2>BEHIND THE <em>SCREEN.</em></h2>
-      </div>
-
-      <div class="about-grid">
-        <div class="about-main">
-          <span class="small-kicker">// A LITTLE ABOUT ME</span>
-          <h3>Curiosity is where every idea begins.</h3>
-
-          <p>
-            My name is <strong>Andriane Felicano</strong>, and I am taking
-            <strong>Bachelor of Science in Information Technology (BSIT)</strong>
-            at <strong>Cebu Eastern College</strong>.
-          </p>
-
-          <p>
-            I'm interested in graphic design, web development, UI/UX design,
-            programming, and game development. I like exploring creative ways
-            to present information, designing user-friendly interfaces, and
-            learning how code can solve everyday problems.
-          </p>
-
-          <p>
-            As an IT student, I want to keep improving my technical skills,
-            gain experience through projects, and work well with others
-            while learning new technologies.
-          </p>
-        </div>
-
-        <div class="stat-grid">
-          <div class="stat">
-            <span class="stat-icon">01</span>
-            <strong>LEARN</strong>
-            <small>Explore new tools and technology</small>
-          </div>
-
-          <div class="stat">
-            <span class="stat-icon">02</span>
-            <strong>CREATE</strong>
-            <small>Turn ideas into digital projects</small>
-          </div>
-
-          <div class="stat">
-            <span class="stat-icon">03</span>
-            <strong>IMPROVE</strong>
-            <small>Practice, test, and grow my skills</small>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS SECTION -->
-    <section id="skills" class="section wrap">
-      <div class="section-head">
-        <span class="section-count">02 / CAPABILITIES</span>
-        <h2>MY CURRENT <em>TOOLKIT.</em></h2>
-        <p>These are areas I'm learning and developing as an Information Technology student.</p>
-      </div>
-
-      <div class="skill-grid">
-        <article class="skill">
-          <span class="skill-no">SKILL / 01</span>
-          <span class="skill-glyph">{ }</span>
-          <h3>Web Development</h3>
-          <p>
-            Learning to build clear, responsive web pages and add
-            simple interactive features.
-          </p>
-          <div class="chips">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-          </div>
-        </article>
-
-        <article class="skill">
-          <span class="skill-no">SKILL / 02</span>
-          <span class="skill-glyph">◉</span>
-          <h3>Graphic &amp; UI Design</h3>
-          <p>
-            Exploring color, layout, typography, and user-friendly
-            designs for digital content.
-          </p>
-          <div class="chips">
-            <span>Graphic Design</span>
-            <span>UI/UX Basics</span>
-            <span>Layout</span>
-          </div>
-        </article>
-
-        <article class="skill">
-          <span class="skill-no">SKILL / 03</span>
-          <span class="skill-glyph">↗</span>
-          <h3>Programming &amp; Problem Solving</h3>
-          <p>
-            Practicing logical thinking, debugging, and breaking tasks
-            into manageable steps.
-          </p>
-          <div class="chips">
-            <span>Programming Basics</span>
-            <span>Debugging</span>
-            <span>Teamwork</span>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- INTERESTS SECTION -->
-    <section id="interests" class="section wrap">
-      <div class="section-head">
-        <span class="section-count">03 / WHAT I ENJOY</span>
-        <h2>MY <em>INTERESTS.</em></h2>
-        <p>Technology-related interests that connect creativity with problem-solving.</p>
-      </div>
-
-      <div class="interest-grid">
-        <article class="interest-card">
-          <span class="interest-icon">✳</span>
-          <h3>Graphic Design</h3>
-          <p>
-            Creating attractive visuals, choosing colors, and making
-            designs that communicate clearly.
-          </p>
-        </article>
-
-        <article class="interest-card">
-          <span class="interest-icon">&lt;/&gt;</span>
-          <h3>Web Development</h3>
-          <p>
-            Building websites and learning how HTML, CSS, and JavaScript
-            work together.
-          </p>
-        </article>
-
-        <article class="interest-card">
-          <span class="interest-icon">⌘</span>
-          <h3>UI/UX Design</h3>
-          <p>
-            Thinking about how to make apps and websites easy and
-            enjoyable to use.
-          </p>
-        </article>
-
-        <article class="interest-card">
-          <span class="interest-icon">▣</span>
-          <h3>Game Development</h3>
-          <p>
-            Exploring how games combine programming, design, interaction,
-            and storytelling.
-          </p>
-        </article>
-      </div>
-    </section>
-
     <!-- PROJECTS SECTION -->
     <section id="projects" class="section wrap">
       <div class="section-head">
-        <span class="section-count">04 / PROJECT IDEAS</span>
+        <span class="section-count">04 / MY WORK</span>
         <h2>SELECTED <em>PROJECTS.</em></h2>
-        <p>Example student projects you can replace or update as you complete your own work.</p>
+        <p>Academic projects I've worked on as an Information Technology student.</p>
       </div>
 
       <div class="projects">
+
+        <!-- PROJECT 01: RACO'S CAR RENTAL SYSTEM -->
         <article class="project">
-          <div class="project-visual visual-one">
+          <div class="project-visual project-image-visual">
+            <img
+              src="images/racos-car.png"
+              alt="RACO'S Car Rental System project preview"
+              class="project-image"
+            >
             <span class="visual-index">001</span>
-            <div class="browser-mock">
-              <div class="browser-top"><i></i><i></i><i></i></div>
-              <div class="mock-bar"></div>
-              <div class="mock-flex"><div></div><div></div><div></div></div>
-            </div>
           </div>
 
           <div class="project-info">
-            <span class="project-type">WEB DESIGN / PRACTICE PROJECT</span>
-            <h3>Student Portfolio Website</h3>
+            <span class="project-type">WEB DEVELOPMENT / DATABASE SYSTEM</span>
+            <h3>RACO'S Car Rental System</h3>
             <p>
-              A personal website concept for presenting my background,
-              interests, developing skills, and future IT projects.
+              A web-based car rental management system developed using PHP
+              and MySQL to manage vehicle records, customer bookings, and
+              administrative operations.
             </p>
             <div class="chips">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>Responsive Design</span>
+              <span>PHP</span>
+              <span>MySQL</span>
+              <span>Web Development</span>
             </div>
-            <span class="project-link project-note">Portfolio concept</span>
+            <a
+              class="project-link"
+              href="https://github.com/duhstine18/RACOS.git"
+              target="_blank"
+              rel="noopener noreferrer"
+            >View on GitHub ↗</a>
           </div>
         </article>
 
+        <!-- PROJECT 02: STACK ME UP -->
         <article class="project">
-          <div class="project-visual visual-two">
+          <div class="project-visual project-image-visual">
+            <img
+              src="images/stack-me-up.png"
+              alt="Stack Me Up block-stacking game screenshot"
+              class="project-image"
+            >
             <span class="visual-index">002</span>
-            <div class="terminal">
-              <span class="terminal-title">creative-project.exe</span>
-              <span>&gt; planning the interface...</span>
-              <span>&gt; exploring design ideas...</span>
-              <span class="terminal-success">&gt; ready to keep learning ▋</span>
-            </div>
           </div>
 
           <div class="project-info">
-            <span class="project-type">DESIGN / LEARNING CONCEPT</span>
-            <h3>Digital Design Study</h3>
+            <span class="project-type">GAME DEVELOPMENT / BROWSER GAME</span>
+            <h3>Stack Me Up</h3>
             <p>
-              A practice concept for experimenting with color palettes,
-              typography, layouts, and user-friendly digital designs.
+              A browser-based stacking game where players use timing and
+              accuracy to place moving blocks and build the tallest tower
+              possible.
             </p>
             <div class="chips">
-              <span>Graphic Design</span>
-              <span>UI/UX</span>
-              <span>Creative Thinking</span>
+              <span>JavaScript</span>
+              <span>HTML Canvas</span>
+              <span>Game Development</span>
             </div>
-            <span class="project-link project-note">Design concept</span>
+            <a
+              class="project-link"
+              href="https://github.com/duhstine18/STACK-ME-UP.git"
+              target="_blank"
+              rel="noopener noreferrer"
+            >View on GitHub ↗</a>
           </div>
         </article>
+
       </div>
     </section>
-
-    <!-- CONTACT SECTION -->
-    <section id="contact" class="contact-section">
-      <div class="wrap contact-inner">
-        <span class="section-count">05 / THE NEXT STEP</span>
-        <h2>LET'S <span>CONNECT.</span></h2>
-        <p>
-          I'm always interested in learning, sharing ideas, and
-          collaborating on technology projects.
-        </p>
-
-        <div class="actions">
-          <a class="btn primary" href="mailto:">Send an email ↗</a>
-          <a class="btn outline" href="https://github.com/"
-             target="_blank" rel="noopener noreferrer">Explore GitHub ↗</a>
-        </div>
-
-        <small>Add your email address and personal GitHub profile when you're ready to publish.</small>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer wrap">
-    <span>© <span id="year">2026</span> Andriane Felicano</span>
-    <span>MADE WITH CURIOSITY // IT STUDENT PORTFOLIO</span>
-    <a href="#home">BACK TO TOP ↑</a>
-  </footer>
-</body>
-</html>
