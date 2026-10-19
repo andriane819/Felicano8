@@ -1,10 +1,15 @@
 
-/* PROJECT IMAGE PREVIEWS */
-.project-image-visual {
+/* PROJECT IMAGE STYLING */
+.project-visual {
+  height: 285px;
   position: relative;
-  padding: 0;
   overflow: hidden;
   background: var(--panel);
+}
+
+.project-visual.visual-one,
+.project-visual.visual-two {
+  background: #101b24;
 }
 
 .project-image {
@@ -16,19 +21,24 @@
   transition: transform 0.4s ease;
 }
 
+/* Subtle zoom when hovering over a project */
 .project:hover .project-image {
   transform: scale(1.04);
 }
 
-/* Keep project numbers visible above the images */
-.project-image-visual .visual-index {
-  z-index: 2;
-  padding: 7px 10px;
-  background: rgba(11, 17, 24, 0.8);
-  border: 1px solid var(--line);
+.visual-index {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  z-index: 1;
+  color: var(--cyan);
+  background: rgba(11, 17, 24, 0.82);
+  padding: 8px 10px;
+  font: 700 14px var(--font);
+  letter-spacing: 2px;
 }
 
-/* Responsive project previews */
+/* Mobile project images */
 @media (max-width: 520px) {
   .project-visual {
     height: 240px;
