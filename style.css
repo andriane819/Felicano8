@@ -1,18 +1,13 @@
 
-/* PROJECT IMAGE STYLING */
-.project-visual {
-  height: 285px;
-  position: relative;
-  overflow: hidden;
-  background: var(--panel);
-}
-
-.project-visual.visual-one,
-.project-visual.visual-two {
-  background: #101b24;
-}
-
+/* PROJECT IMAGES */
 .project-image {
+  position: relative;
+  height: 285px;
+  overflow: hidden;
+  background: #121c25;
+}
+
+.project-image img {
   display: block;
   width: 100%;
   height: 100%;
@@ -21,26 +16,18 @@
   transition: transform 0.4s ease;
 }
 
-/* Subtle zoom when hovering over a project */
-.project:hover .project-image {
+.project:hover .project-image img {
   transform: scale(1.04);
 }
 
-.visual-index {
-  position: absolute;
-  top: 18px;
-  left: 18px;
-  z-index: 1;
-  color: var(--cyan);
-  background: rgba(11, 17, 24, 0.82);
-  padding: 8px 10px;
-  font: 700 14px var(--font);
-  letter-spacing: 2px;
+.project-image .visual-index {
+  z-index: 2;
+  padding: 7px 10px;
+  background: rgba(11, 17, 24, 0.8);
 }
 
-/* Mobile project images */
 @media (max-width: 520px) {
-  .project-visual {
+  .project-image {
     height: 240px;
   }
 }
